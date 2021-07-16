@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int i,j,k,n,ar[100],nwar[100],nlen = 0,c,size;
+    cout<<" --Count no.of array values--";	
     cout<<" Enter size : ";
     cin>>size;
     cout<<" Enter values \n";
@@ -39,7 +40,7 @@ int main()
                 ++count;
             }
         }
-        cout<<" "<<nwar[i]<<" - "<<count<<"\n";
+        cout<<"\n"<<" "<<nwar[i]<<" - "<<count;
     }
 
     return 0;
