@@ -22,7 +22,7 @@ void insertion_sort(int ar[],int size){
 
 int main(){
     int n,ar[100],i,j;
-    cout<<" ---Selection Sort--- \n";
+    cout<<" ---Insertion Sort--- \n";
     cout<<" Enter array size : ";
     cin>>n;
     cout<<" Enter array values \n";
